@@ -1,23 +1,19 @@
-var translateToKlingon = (function (klingonTranslator) {
+var translate = (function (originalTrans) {
 	 var klingonLanguage = {
-	 	"merry": "Quch",
-	 	"christmas": "jul",
-	 	"and": "je",
-	 	"happy": "Quch",
-	 	"new": "chu\'",
-	 	"year": "DIS"
-	 }
-	 klingonTranslator.
-	 return {
-	 	getlanguage: function () {
-	 		 return language;
-	 	},
-	 	setlanguage: function () {
-	 		 language = newLanguage;
-	 	}
-	 }
-})();
+	 	merry: "Quch",
+	 	christmas: "jul",
+	 	and: "je",
+	 	happy: "Quch",
+	 	new: "chu\'",
+	 	year: "DIS"
+	 };
 
-console.log("translate: ", translateToKlingon);
+   originalTrans.toKlingon = function() {
+    return klingonLanguage;
+   };
+
+   return originalTrans;
+	 };
+})(translate);
 
 
