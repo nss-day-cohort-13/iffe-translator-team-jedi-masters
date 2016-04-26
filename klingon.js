@@ -1,13 +1,13 @@
-var translateToKlingonlate = (function () {
-	 var language = {
-	 	merry: "Quch",
-	 	christmas: "jul",
-	 	and: "je",
-	 	happy: "Quch",
-	 	new: "chu\'",
-	 	year: "DIS"
+var translateToKlingon = (function (klingonTranslator) {
+	 var klingonLanguage = {
+	 	"merry": "Quch",
+	 	"christmas": "jul",
+	 	"and": "je",
+	 	"happy": "Quch",
+	 	"new": "chu\'",
+	 	"year": "DIS"
 	 }
-
+	 klingonTranslator.
 	 return {
 	 	getlanguage: function () {
 	 		 return language;
@@ -18,4 +18,6 @@ var translateToKlingonlate = (function () {
 	 }
 })();
 
-console.log("translate: ", translateToKlingonlate);
+console.log("translate: ", translateToKlingon);
+
+
