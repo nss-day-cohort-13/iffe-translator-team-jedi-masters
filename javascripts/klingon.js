@@ -17,5 +17,3 @@ var translate = (function (originalTrans) {
 
 }(translate)); // iife translate
 
-
-
