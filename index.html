@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Translator</title>
     <link rel="stylesheet" href="">
-  </head>
-  <body>
+</head>
+
+<body>
+    <!--initialize inputs-->
     <input type="textarea" id="userText"></input>
     <input type="radio" name="language" value="Spanish" id="spanish">Spanish</input>
     <input type="radio" name="language" value="Latin" id="latin">Latin</input>
     <input type="radio" name="language" value="Klingon" id="klingon">Klingon</input>
     <input type="radio" name="language" value="Castle" id="castle">Castle</input>
     <input type="button" id="translateButton" value="Translate"></input>
-
     <div id="output"></div>
+    <!--Empty DIV for ouput-->
+    <script src="javascripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="javascripts/latin.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="javascripts/spanish.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="javascripts/castle.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="javascripts/klingon.js" type="text/javascript" charset="utf-8" async defer></script>
+</body>
 
-  <script src="javascripts/main.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="javascripts/latin.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="javascripts/spanish.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="javascripts/castle.js" type="text/javascript" charset="utf-8" async defer></script>
-  <script src="javascripts/klingon.js" type="text/javascript" charset="utf-8" async defer></script>
-
-  </body>
 </html>
