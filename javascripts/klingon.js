@@ -13,6 +13,5 @@ var translate = (function (originalTrans) {
    };
 
    return originalTrans;
-	 };
 })(translate);
 

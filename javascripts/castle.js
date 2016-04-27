@@ -1,15 +1,15 @@
-var translate = (function(translate) {
+var language = (function(translate) {
 	var newBooty = {
 		merry: "booty",
 		christmas: "booti",
-	    and: "bewti",
+	  and: "bewti",
 		happy: "buhdi",
 		new: "rockin",
 		year: "everywhere"
-
-	translate.toNewBooty = function() {
+	}
+	translate.toCastle = function() {
 		return newBooty;
 	}
-}
+
 	return translate;
-}(translate));
+}(language));
