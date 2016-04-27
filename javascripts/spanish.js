@@ -1,4 +1,4 @@
-var translate = (function(originalTrans) {
+var language = (function(originalTrans) {
   var spanish = {
     merry: "feliz",
     christmas: "navidad",
@@ -7,13 +7,13 @@ var translate = (function(originalTrans) {
     new: "nuevo",
     year: "ano"
   };
-
-  originalTrans.toSpanish = function(){
+  return {
+  toSpanish = function(){
     return spanish;
   };
-
+}
   return originalTrans;
 
-}(translate));
+}(language));
 
 
