@@ -1,4 +1,6 @@
 // Christmas et anni beatum
+//initial function sets object key:value pairs.
+
 var language = (function() {
     var words = {
         merry: "merri",
@@ -7,12 +9,12 @@ var language = (function() {
         happy: "anni",
         new: "neau",
         year: "beatum"
-    }
-  
+        }
+        //returns words object.
     return {
-    	toLatin : function() {
-        	return words;
-    	}
-	}
+        toLatin: function() {
+            return words;
+        }
+    }
 
 })();

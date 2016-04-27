@@ -1,3 +1,4 @@
+// Adds new language to initial function
 var language = (function(translate) {
 	var newBooty = {
 		merry: "booty",
@@ -7,7 +8,7 @@ var language = (function(translate) {
 		new: "rockin",
 		year: "everywhere"
 	}	
-
+//return new language
 	translate.toCastle = function() {
 		return newBooty;
 	}
