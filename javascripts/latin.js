@@ -1,6 +1,6 @@
 // Christmas et anni beatum
 var language = (function() {
-    var latin = {
+    var words = {
         merry: "merri",
         christmas: "Christmas",
         and: "et",
@@ -11,7 +11,7 @@ var language = (function() {
   
     return {
     	toLatin : function() {
-        	return latin;
+        	return words;
     	}
 	}
 
