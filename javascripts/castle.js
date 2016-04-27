@@ -1,4 +1,4 @@
-var translate = (function(translate) {
+var language = (function(translate) {
 	var newBooty = {
 		merry: "booty",
 		christmas: "booti",
@@ -6,10 +6,10 @@ var translate = (function(translate) {
 		happy: "buhdi",
 		new: "rockin",
 		year: "everywhere"
-
-	translate.toNewBooty = function() {
+	}	
+	translate.toCastle = function() {
 		return newBooty;
 	}
-}
+
 	return translate;
-}(translate));
+}(language));

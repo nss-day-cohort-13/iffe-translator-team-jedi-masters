@@ -1,4 +1,4 @@
-var translate = (function (originalTrans) {
+var language = (function (language) {
 	 var klingonLanguage = {
 	 	merry: "Quch",
 	 	christmas: "jul",
@@ -6,13 +6,14 @@ var translate = (function (originalTrans) {
 	 	happy: "Quch",
 	 	new: "chu\'",
 	 	year: "DIS"
-	 };
+	 }
 
-   originalTrans.toKlingon = function() {
+   language.toKlingon = function() {
     return klingonLanguage;
    };
 
-   return originalTrans;
-	 };
-})(translate);
+	 
+   return language;
+
+})(language);
 
