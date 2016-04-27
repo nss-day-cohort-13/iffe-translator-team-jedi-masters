@@ -16,4 +16,3 @@ var translate = (function (originalTrans) {
 	 };
 })(translate);
 
-
