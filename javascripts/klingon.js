@@ -11,7 +11,6 @@ var language = (function (language) {
    language.toKlingon = function() {
     return klingonLanguage;
    };
-
 	 
    return language;
 

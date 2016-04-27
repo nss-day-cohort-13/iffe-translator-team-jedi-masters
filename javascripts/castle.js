@@ -7,6 +7,7 @@ var language = (function(translate) {
 		new: "rockin",
 		year: "everywhere"
 	}	
+
 	translate.toCastle = function() {
 		return newBooty;
 	}
