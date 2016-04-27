@@ -1,5 +1,5 @@
 // Christmas et anni beatum
-var translateToLatin = (function(translate) {
+var language = (function() {
     var latin = {
         merry: "merri",
         christmas: "Christmas",
@@ -8,16 +8,11 @@ var translateToLatin = (function(translate) {
         new: "neau",
         year: "beatum"
     }
-    language.merry = "merri ";
-    language.christmas = "christmas ";
-    language.and = "et ";
-    language.happy = "anni ";
-    language.new = "neau ";
-    language.year = "beatum ";
+  
+    return {
+    	toLatin : function() {
+        	return latin;
+    	}
+	}
 
-    translate.toLatin = function() {
-        return latin;
-    }
-    return translate;
-
-})(translate);
+})();
