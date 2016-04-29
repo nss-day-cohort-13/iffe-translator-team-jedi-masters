@@ -1,14 +1,14 @@
 # iffe-translator-team-jedi-masters
 
-Language Translator
-Setup
+# Language Translator
+## Setup
 
-mkdir -p ~/workspace/group-projects/translator && cd $_
+```mkdir -p ~/workspace/group-projects/translator && cd $_```
 This will be a group project managed by Github Classroom, so pick one teammate to create the Classroom team. Once the repo is created, run the initialization commands that create the inital README and push the branch up.
 
 At that point, the other teammates can join the Classroom team and clone the repository.
 
-Instructions
+## Instructions
 
 Represent a small bilingual lexicon as a Javascript object (see example below) and use it to translate a holiday card message from English into another language. Each member of the team will build a JavaScript module that will convert text entered into an input field to the language that they choose.
 
